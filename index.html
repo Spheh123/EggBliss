@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EggBlisss | Fresh Eggs in Johannesburg & Soweto</title>
+
+  <meta name="description" content="EggBlisss supplies fresh, affordable eggs to homes and businesses across Johannesburg, Soweto and surrounding areas. Perfect for kota sellers, bakers, spaza shops and families. Order via WhatsApp or call 071 479 7241." />
+  <meta name="keywords" content="eggs Johannesburg,Soweto eggs,egg supplier,kota sellers,fresh eggs,egg trays Gauteng" />
+  <meta name="author" content="EggBlisss" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/eggblisss-logo.jpg" type="image/jpg">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="nav">
+      <div class="nav-left">
+        <div class="nav-logo-img">
+          <img src="images/eggblisss-logo.jpg" alt="EggBlisss logo">
+        </div>
+        <div>
+          <div class="nav-brand">EggBlisss</div>
+          <div class="nav-tagline">Fresh eggs, farm-style quality</div>
+        </div>
+      </div>
+
+      <button class="nav-toggle">☰</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div>
+        <div class="hero-badge">🥚 Fresh Eggs · 🐔 Real Farm Quality</div>
+
+        <h1>
+          Fresh Eggs Delivered Across
+          <span class="hero-highlight">Johannesburg & Soweto</span>
+        </h1>
+
+        <p>
+          Supplying homes, bakers, kota sellers and small businesses with fresh,
+          clean, affordable eggs — straight from our supplier to you.
+        </p>
+
+        <a href="https://wa.me/27714797241?text=Hi%20EggBlisss!%20I%20want%20to%20order%20eggs."
+           class="btn btn-primary">Order on WhatsApp</a>
+      </div>
+
+      <div class="hero-img-wrapper">
+        <img src="images/eggblisss-logo.jpg" alt="EggBlisss Logo">
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing">
+      <h2 class="section-title">Our Prices</h2>
+      <p class="section-subtitle">Simple, fair and perfect for every kitchen.</p>
+
+      <div class="pricing-grid">
+
+        <div class="card">
+          <h3>Household Tray</h3>
+          <div class="price-main">R65</div>
+          <p>30 farm-fresh eggs</p>
+        </div>
+
+        <div class="card">
+          <h3>Small Business Bundle</h3>
+          <div class="price-main">R315</div>
+          <p>5 trays · R63 each</p>
+        </div>
+
+        <div class="card">
+          <h3>Bulk Saver</h3>
+          <div class="price-main">R600</div>
+          <p>10 trays · R60 each</p>
+        </div>
+
+      </div>
+
+      <div class="highlight-box">
+        Bigger orders? Call or WhatsApp: <strong>071 479 7241</strong>
+      </div>
+    </section>
+
+    <!-- AREAS WE SERVE -->
+    <section id="areas">
+      <h2 class="section-title">Areas We Serve</h2>
+
+      <ul class="list-check">
+        <li>All of Soweto</li>
+        <li>Johannesburg CBD & South</li>
+        <li>Randburg, Roodepoort, Sandton</li>
+        <li>Midrand & Fourways</li>
+        <li>Other Gauteng areas on request</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="section-title">Order or Enquire</h2>
+
+      <div class="contact-grid">
+
+        <!-- FORMSUBMIT FORM -->
+        <form action="https://formsubmit.co/eggblisss@gmail.com" method="POST">
+
+          <input type="hidden" name="_captcha" value="false">
+
+          <input type="hidden" name="_next" value="https://your-netlify-domain/success.html">
+
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="tel" name="phone" placeholder="Phone / WhatsApp" required>
+          <input type="email" name="email" placeholder="Email (optional)">
+          <input type="text" name="area" placeholder="Your area (e.g. Soweto)">
+          <input type="text" name="quantity" placeholder="How many trays?">
+          <textarea name="message" rows="4" placeholder="Any notes?"></textarea>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+
+        <div>
+          <div class="highlight-box">
+            📞 <strong>Call / WhatsApp:</strong>  
+            <a href="tel:0714797241">071 479 7241</a><br><br>
+
+            💬 <a href="https://wa.me/27714797241">Chat on WhatsApp</a><br><br>
+
+            ✉️ <strong>Email:</strong>  
+            <a href="mailto:eggblisss@gmail.com">eggblisss@gmail.com</a><br><br>
+
+            Based in Soweto · Delivering across Johannesburg
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="year"></span> EggBlisss · Fresh Eggs for Every Home & Business
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

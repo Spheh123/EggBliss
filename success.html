@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Sent | EggBlisss</title>
+
+  <!-- Same favicon -->
+  <link rel="icon" href="images/eggblisss-logo.jpg" type="image/jpg">
+
+  <!-- Same warm farm-style look -->
+  <style>
+    :root {
+      --beige: #f7f2e9;
+      --light-beige: #fcf8f2;
+      --brown: #8b5e34;
+      --dark-brown: #6a4826;
+      --gold: #e6b85c;
+      --soft-gold: #f4dba5;
+      --white: #ffffff;
+      --shadow: 0 8px 20px rgba(0,0,0,0.08);
+      --radius: 14px;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: var(--light-beige);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: var(--dark-brown);
+      padding: 1.5rem;
+    }
+
+    .box {
+      background: var(--white);
+      padding: 2.5rem;
+      border-radius: var(--radius);
+      text-align: center;
+      max-width: 450px;
+      width: 100%;
+      box-shadow: var(--shadow);
+    }
+
+    .box img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 1rem;
+      border-radius: 12px;
+      border: 2px solid var(--soft-gold);
+      padding: 6px;
+      background: var(--white);
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      margin-bottom: 0.8rem;
+      color: var(--dark-brown);
+    }
+
+    p {
+      font-size: 1rem;
+      opacity: 0.85;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.6rem;
+      background: var(--brown);
+      color: var(--beige);
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.2s ease;
+      box-shadow: var(--shadow);
+    }
+
+    .btn:hover {
+      background: var(--dark-brown);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <img src="images/eggblisss-logo.jpg" alt="EggBlisss Logo">
+
+    <h1>Thank You! 🥚</h1>
+
+    <p>Your message has been sent successfully.<br>
+       We’ll get back to you shortly on WhatsApp or email.</p>
+
+    <a href="index.html" class="btn">Return to Home</a>
+  </div>
+
+</body>
+</html>
